@@ -18,5 +18,5 @@ app.use(express.static("public"));
 
 const server = http.createServer(app);
 server.listen(HTTP_PORT_NUMBER, function () {
-  console.log(`Server started on port: ${server.address().port}`);
+  console.log(`💀 ::Malicious:: Server started on port: ${server.address().port}`);
 });
