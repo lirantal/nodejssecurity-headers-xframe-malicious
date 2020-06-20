@@ -17,25 +17,19 @@
   {{#if iframeVisible }}
     <style>
       iframe {
-        position: absolute;
+        position: inherit;
         width: 500px;
         height: 200px;
-        top: 140px;
-        left: -210px;
         opacity: 0.7;
-        z-index: 1;
       }
     </style>
   {{else}}
     <style>
       iframe {
-        position: absolute;
+        position: inherit;
         width: 500px;
         height: 200px;
-        top: 140px;
-        left: -210px;
-        opacity: 0;
-        z-index: 1;
+        opacity: 0
       }
     </style>
   {{/if}}
