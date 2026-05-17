@@ -56,3 +56,7 @@ Now, with the innocent website `./iframe-website` let's make sure that we update
 const helmet = require("helmet");
 app.use(helmet.frameguard({ action: "deny" }));
 ```
+
+## Contributing
+
+Please consult [CONTRIBUTING](./CONTRIBUTING.md) for guidelines on contributing to this project.
