@@ -20,5 +20,9 @@
     "express-handlebars": "^4.0.4",
     "morgan": "^1.10.0"
   },
-  "private": true
+  "private": true,
+  "engines": {
+    "node": ">=24.0.0",
+    "npm": ">=11.10.0"
+  }
 }
